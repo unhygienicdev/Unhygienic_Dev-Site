@@ -2,11 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  experimental: {
-    ppr: true,
-    dynamicIO: true,
-    reactCompiler: true,
-  },
   transpilePackages: ["three", "@react-three/fiber", "@react-three/drei", "geist"],
   images: {
     remotePatterns: [
